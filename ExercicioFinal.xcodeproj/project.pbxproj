@@ -14,6 +14,11 @@
 		975569111D779AD8007EDC63 /* ExercicioFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9755690F1D779AD8007EDC63 /* ExercicioFinal.xcdatamodeld */; };
 		975569131D779AD8007EDC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975569121D779AD8007EDC63 /* Assets.xcassets */; };
 		975569161D779AD8007EDC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975569141D779AD8007EDC63 /* LaunchScreen.storyboard */; };
+		97C0BB251D875A9400CA02DC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C0BB241D875A9400CA02DC /* TableViewController.m */; };
+		97C0BB2B1D87A45A00CA02DC /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C0BB2A1D87A45A00CA02DC /* CollectionViewController.m */; };
+		97C0BB301D87AA5C00CA02DC /* atleticomineiro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 97C0BB2D1D87AA5C00CA02DC /* atleticomineiro.jpeg */; };
+		97C0BB311D87AA5C00CA02DC /* corintias.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 97C0BB2E1D87AA5C00CA02DC /* corintias.jpg */; };
+		97C0BB321D87AA5C00CA02DC /* saopaulo.png in Resources */ = {isa = PBXBuildFile; fileRef = 97C0BB2F1D87AA5C00CA02DC /* saopaulo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,13 @@
 		975569121D779AD8007EDC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		975569151D779AD8007EDC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		975569171D779AD8007EDC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97C0BB231D875A9400CA02DC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		97C0BB241D875A9400CA02DC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		97C0BB291D87A45A00CA02DC /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		97C0BB2A1D87A45A00CA02DC /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		97C0BB2D1D87AA5C00CA02DC /* atleticomineiro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = atleticomineiro.jpeg; sourceTree = "<group>"; };
+		97C0BB2E1D87AA5C00CA02DC /* corintias.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corintias.jpg; sourceTree = "<group>"; };
+		97C0BB2F1D87AA5C00CA02DC /* saopaulo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saopaulo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 		975569021D779AD8007EDC63 /* ExercicioFinal */ = {
 			isa = PBXGroup;
 			children = (
+				97C0BB2C1D87AA5C00CA02DC /* imagens */,
 				975569061D779AD8007EDC63 /* AppDelegate.h */,
 				975569071D779AD8007EDC63 /* AppDelegate.m */,
 				975569091D779AD8007EDC63 /* ViewController.h */,
@@ -70,6 +83,10 @@
 				975569171D779AD8007EDC63 /* Info.plist */,
 				9755690F1D779AD8007EDC63 /* ExercicioFinal.xcdatamodeld */,
 				975569031D779AD8007EDC63 /* Supporting Files */,
+				97C0BB231D875A9400CA02DC /* TableViewController.h */,
+				97C0BB241D875A9400CA02DC /* TableViewController.m */,
+				97C0BB291D87A45A00CA02DC /* CollectionViewController.h */,
+				97C0BB2A1D87A45A00CA02DC /* CollectionViewController.m */,
 			);
 			path = ExercicioFinal;
 			sourceTree = "<group>";
@@ -80,6 +97,16 @@
 				975569041D779AD8007EDC63 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97C0BB2C1D87AA5C00CA02DC /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				97C0BB2D1D87AA5C00CA02DC /* atleticomineiro.jpeg */,
+				97C0BB2E1D87AA5C00CA02DC /* corintias.jpg */,
+				97C0BB2F1D87AA5C00CA02DC /* saopaulo.png */,
+			);
+			path = imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +167,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C0BB301D87AA5C00CA02DC /* atleticomineiro.jpeg in Resources */,
+				97C0BB321D87AA5C00CA02DC /* saopaulo.png in Resources */,
 				975569161D779AD8007EDC63 /* LaunchScreen.storyboard in Resources */,
 				975569131D779AD8007EDC63 /* Assets.xcassets in Resources */,
+				97C0BB311D87AA5C00CA02DC /* corintias.jpg in Resources */,
 				9755690E1D779AD8007EDC63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,7 +185,9 @@
 			files = (
 				975569111D779AD8007EDC63 /* ExercicioFinal.xcdatamodeld in Sources */,
 				9755690B1D779AD8007EDC63 /* ViewController.m in Sources */,
+				97C0BB2B1D87A45A00CA02DC /* CollectionViewController.m in Sources */,
 				975569081D779AD8007EDC63 /* AppDelegate.m in Sources */,
+				97C0BB251D875A9400CA02DC /* TableViewController.m in Sources */,
 				975569051D779AD8007EDC63 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +339,7 @@
 				9755691C1D779AD8007EDC63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
